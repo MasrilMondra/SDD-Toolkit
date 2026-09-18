@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pepito SDD Toolkit</title>
+  <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+        @media print {
+          .no-print { display: none !important; }
+          body { background: white !important; }
+          .print-break { break-inside: avoid; }
+        }
+        *, :after, :before { box-sizing: border-box; border: 0 solid #e5e7eb; }
+        body { margin: 0; font-family: 'Inter', system-ui, sans-serif; background-color: #F8F9F4; color: #1E2A1A; }
+        .input { width: 100%; height: 38px; padding: 0 12px; border-radius: 8px; border: 1px solid #E6E9E0; background: #FFF; font-size: 13px; outline: none; }
+        .input:focus { border-color: #7CB342; ring: 2px solid rgba(124,179,66,0.3); }
+        .textarea { width: 100%; min-height: 80px; padding: 10px 12px; border-radius: 8px; border: 1px solid #E6E9E0; background: #FFF; font-size: 13px; outline: none; resize: vertical; }
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+  
+  <!-- React & ReactDOM CDN -->
+  <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
+  
+  <script type="text/babel">
+    // Aplikasi berjalan langsung di browser via Babel CDN
+  </script>
+</body>
+</html>
